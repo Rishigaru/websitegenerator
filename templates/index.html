@@ -1,0 +1,62 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rvAI - Smart Prompt Redirect</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="rvAI Logo" class="logo">
+            <h1>Welcome to <span class="highlight">rvAI</span></h1>
+            <p class="subtitle">Enter your prompt and let rvAI generate the right website for you.</p>
+        </header>
+
+        <main>
+            <form method="post" action="/process" class="prompt-form">
+                <input type="text" name="prompt" placeholder="Type your prompt here..." required>
+                <button type="submit">Generate Website</button>
+            </form>
+            {% if error %}
+                <p class="error">{{ error }}</p>
+            {% endif %}
+        </main>
+
+        <footer>
+            <p>Powered by rvAI &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+</html> -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rvAI - Smart Prompt Redirect</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="rvAI Logo" class="logo">
+            <h1>Welcome to <span class="highlight">rvAI</span></h1>
+            <p class="subtitle">Enter your prompt and let rvAI generate the right website for you.</p>
+        </header>
+
+        <main>
+            <form method="post" action="/process" class="prompt-form">
+                <input type="text" name="prompt" placeholder="Type your prompt here..." required>
+                <button type="submit">Generate Website</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Powered by rvAI &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
+
