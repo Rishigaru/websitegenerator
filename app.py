@@ -10,7 +10,7 @@ PROMPT_URL_MAP = {
     "builders": "https://builderexhibitions.in/",
     "realestate": "https://ssmdevelopers.in/",
     "pharma": "https://srkcleanrooms.in/",
-    "pharma industry": "https://srkcleanrooms.in/"
+    "pharma industry": "https://srkcleanrooms.in/",
     "real estate": "https://www.nimmagaddainfra.com/"
 }
 
